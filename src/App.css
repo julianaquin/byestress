@@ -41,11 +41,11 @@ background:linear-gradient(125deg, rgba(237, 215, 122, 1) 0%, rgba(255, 255, 255
  -webkit-text-fill-color: transparent;
 }
 
-.section__padding:{
-    padding: 4rem 6rem;
+.section__padding{
+    padding: 2rem 6rem;
 }
 
-.section__margin:{
+.section__margin{
     margin: 4rem 6rem;
 }
 
@@ -96,10 +96,10 @@ background:linear-gradient(125deg, rgba(237, 215, 122, 1) 0%, rgba(255, 255, 255
 
 @media screen and (max-width: 550px){
     .section__padding{
-        padding: 4rem 2rem;
+        padding: 4rem;
     }
 
     .section__margin{
-        margin: 4rem 2rem;
+        margin: 4rem;
     }
 }

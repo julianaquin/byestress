@@ -15,7 +15,7 @@ const Menu = () => (
 
 
 const Navbar = () => {
-const [toggle, setToggle] = useState(false);
+const [toggleMenu, setToggleMenu] = useState(false);
 
     return (
         <div className="estress__navbar">
@@ -26,29 +26,30 @@ const [toggle, setToggle] = useState(false);
                 <div className="estress__navbar-links_container">
                     <Menu />
                 </div>
+                </div>
                 <div className="estress__navbar-sign">
                     <p>Sign in</p>
                     <button>Log in</button>
                 </div>
                 <div className="estress__navbar-menu">
-                {toggle 
-                    ? 
-                    <RiCloseLine color="#fff" size={27} 
-                    onClick={() => setToggle(false)}/>
-                    : <RiMenu3Line color="#fff" size={27} 
-                    onClick={() => setToggle(true)}/>
-                }
-                {toggle && 
-                    (<div className="estress__navbar-menu_container scale-up-top">
-                        <div className="estress__navbar-menu_container-links">
-                        <Menu />
-                        <div className="estress__navbar-menu_container-links-sign">
-                            <p>Sign in</p>
-                            <button>Log in</button>
-                        </div>
-                        </div>
-                    </div>)}
-                </div>
+                    {toggleMenu
+                        ? 
+                        <RiCloseLine color="#aad564" size={27} 
+                        onClick={() => setToggleMenu(false)}/>
+                        : <RiMenu3Line color="#aad564" size={27} 
+                        onClick={() => setToggleMenu(true)}/>
+                    }
+                    {toggleMenu && 
+                        (<div className="estress__navbar-menu_container scale-up-top">
+                            <div className="estress__navbar-menu_container-links">
+                                <Menu />
+                                <div className="estress__navbar-menu_container-links-sign">
+                                    <p>Sign in</p>
+                                    <button>Log in</button>
+                                </div>
+                            </div>
+                        </div>)
+                    }
             </div>
         </div>
     )

@@ -1,0 +1,121 @@
+.estress__header{
+    display: flex;
+    padding: 2rem 6rem 0rem 6rem;
+}
+
+.estress__header-content{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-bottom: 2rem;
+}
+
+.estress__header-content h1{
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px;
+    letter-spacing: -0 0.4rem;
+}
+
+.estress__header-content p{
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: var(--color-text);
+    margin-top: 1.5rem;
+}
+
+.estress__header-content__input{
+    margin: 2rem 0 1rem;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.estress__header-content__input button{
+min-width: 150px;
+min-height: 50px;
+font-size: 18px;
+font-family: var(--font-family);
+font-weight: 500;
+line-height: 25px;
+background: var(--color-button);
+border-radius: 5px;
+border: none;
+color: white;
+cursor: pointer;
+}
+
+.estress__header-content__people{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.estress__header-image{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.estress__header-image img{
+    max-width: 100%;
+    float:bottom;
+    height: auto;
+    align-self: flex-end;
+}
+
+@media screen and (max-width: 1050px) {
+    .estress__header{
+        flex-direction: column;
+    }
+
+    .estress__header-content{
+        margin: 0 0 3rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .estress__header h1{
+        font-size: 47px;
+        line-height: 60px;
+    }
+
+    .estress__header p{
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+    .estress__header-content__people{
+        flex-direction: column;
+    }
+
+    .estress__header-content__people p{
+        margin: 0;
+    }
+
+    .estress__header-content__input button{
+        font-size: 16px;
+        line-height: 24px;
+        flex:2;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .estress__header h1{
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    .estress__header p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+}
