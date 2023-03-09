@@ -4,12 +4,12 @@
   --font-family: 'Manrope', sans-serif;
 
   --gradient-text: linear-gradient(159.97deg, #30CFD0 1.84%, #aad564 102.67%);
-  --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+  --gradient-bar: linear-gradient(159.97deg, #24e99d 33.3%, #38ac97 92.67%);
   
-  --color-bg: #ffffff;
+  --color-bg: #fefbf0;
   --color-footer : #ffe499;
   --color-blog: #042c54;
-  --color-text: #9a9a9a;
-  --color-subtext: #FF8A71;
+  --color-text: #858585;
+  --color-subtext: #38ac97;
   --color-button: #aad564;
 }

@@ -1,0 +1,17 @@
+.estress__brand{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-bg);
+}
+
+.estress__brand div{
+    flex:1;
+    max-width: 80px;
+    min-width: 20px;
+    margin: 2rem 2rem 0rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
