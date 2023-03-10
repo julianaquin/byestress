@@ -2,8 +2,7 @@ import React from 'react'
 import Feature from '../../components/feature/Feature'
 import './new.css'
 
-const New = () => {
-    return (
+const New = () =>  (
         <div className="estress__new section__margin" id="new">
             <div className="estress__new-heading">
                 <h1 className="gradient__text">
@@ -21,11 +20,11 @@ const New = () => {
                 to one another, which is why exercising can be key in order to improve..." />
                 <Feature title="Top 10 best foods" text="The impact food has on us is bigger than what people think...
                 "/>
-                <Feature title="Best breath tecniques" text="Respiratory control has showned to be a way to help patients
+                <Feature title="Breath tecniques" text="Respiratory control has showned to be a way to help patients
                 deal with anxiety and panic attacks"/>
             </div>
         </div>
     )
-}
+
 
 export default New
