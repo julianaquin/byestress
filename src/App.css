@@ -42,7 +42,7 @@ background:linear-gradient(125deg, rgba(237, 215, 122, 1) 0%, rgba(255, 255, 255
 }
 
 .section__padding{
-    padding: 2rem 6rem;
+    padding: 4rem 6rem;
 }
 
 .section__margin{
@@ -96,10 +96,10 @@ background:linear-gradient(125deg, rgba(237, 215, 122, 1) 0%, rgba(255, 255, 255
 
 @media screen and (max-width: 550px){
     .section__padding{
-        padding: 4rem;
+        padding: 4rem 2rem;
     }
 
     .section__margin{
-        margin: 4rem;
+        margin: 4rem 2rem;
     }
 }
