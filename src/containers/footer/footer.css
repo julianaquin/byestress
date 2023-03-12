@@ -1,0 +1,82 @@
+.estress__footer{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-footer); 
+}
+
+.estress__footer-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    text-align: left;
+
+}
+
+.estress__footer-links div{
+    width: 250px;
+    margin: 1rem;
+}
+
+.estress__footer-links_logo{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.estress__footer-links_logo img{
+    width: 180px;
+    margin-bottom: 1rem;
+}
+
+.estress__footer-links_logo p{
+    font-size: 12px;
+    font-family: var(--font-family);
+    line-height: 14px;
+    color:  var(--color-text);
+}
+
+.estress__footer-links_div{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.estress__footer-links_div h4{
+    font-size: 16px;
+    font-family: var(--font-family);
+    line-height: 16px;
+    margin-bottom: 1rem;
+    color:  var(--color-text);
+}
+
+.estress__footer-links_div p{
+    font-size: 14px;
+    font-family: var(--font-family);
+    line-height: 14px;
+    margin: 0.5rem 0;
+    cursor: pointer;
+    color:  var(--color-text);
+}
+
+.estress__footer-copyright p{
+    margin-top: 2rem;
+    text-align: center;
+    width: 100%;
+    font-family: var(--font-family);
+    font-size: 18px;
+    line-height: 14px;
+    font-feature-settings: 'liga' off;
+    color: var(--color-subtext);
+}
+
+@media screen and (max-width: 550px) {
+
+    .estress__footer-links div{
+        margin:1rem 0;
+    }
+}

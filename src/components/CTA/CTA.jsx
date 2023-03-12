@@ -3,7 +3,7 @@ import './cta.css'
 
 const CTA = () => {
     return (
-        <div className="estress__cta">
+        <div className="estress__cta" id="CTA">
             <div className="estress__cta-content">
                 <p>Be connected</p>
                 <h3>Subscribe to our newsletter</h3>
