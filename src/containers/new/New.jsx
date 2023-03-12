@@ -3,7 +3,7 @@ import Feature from '../../components/feature/Feature'
 import './new.css'
 
 const New = () =>  (
-        <div className="estress__new section__margin" id="new">
+        <div className="estress__new section__margin" id="StudiesNews">
             <div className="estress__new-heading">
                 <h1 className="gradient__text">
                     Read the top articles and discover more about stress

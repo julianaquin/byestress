@@ -18,7 +18,7 @@ const featuresArray =[
 ]
 
 const Features = () => (
-        <div className="estress__features section__padding" id="features">
+        <div className="estress__features section__padding" id="HealthFeatures">
             <div className="estress__features-heading">
                 <h1 className="gradient__text">
                     Wealth being requires knowledge and commitment, but don't worry we're here
